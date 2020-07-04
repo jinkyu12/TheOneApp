@@ -29,7 +29,7 @@ class App extends Component{
               />
             </View>
             <View style={{flex:7}}></View>
-            <View style={{flex:1}}>
+            <View style={{flex:1}}>     
               <CustomButton
                 buttonColor={'#EECB5A'}
                 buttonImage={require('./asserts/search_btn.png')}
