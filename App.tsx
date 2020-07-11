@@ -6,16 +6,7 @@ import MainScreen from './src/screens/MainScreen';
 import FavoritesScreen from './src/screens/FavoritesScreen';
 import PointScreen from './src/screens/PointScreen';
 
-const Tab = createBottomTabNavigator({
-  tabBarOptions: {
-      showLabel: false,
-      activeTintColor: '#F8F8F8',
-      inactiveTintColor: '#586589',
-      style: {
-          backgroundColor: '#171F33'
-      }
-  }
-});
+const Tab = createBottomTabNavigator();
 
 class App extends Component {
   constructor(){

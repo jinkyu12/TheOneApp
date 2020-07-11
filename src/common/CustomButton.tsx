@@ -12,6 +12,7 @@ export default class CustomButton extends Component {
         buttonTitle: '',
         buttonColor:'#fff',
         titleColor:'#fff',
+        titleSize:20,
         buttonImage:'',
         buttonAlign:'center',
         buttonWidth:28,
@@ -33,7 +34,7 @@ export default class CustomButton extends Component {
                  backgroundColor:this.props.buttonColor}
             ]}>
           <Text style={[
-              {color:this.props.titleColor, marginRight:5}
+              {color:this.props.titleColor, fontSize:this.props.titleSize, textAlign:'center'}
             ]}>{this.props.buttonTitle}</Text>
           <TouchableOpacity
             // onPress={this.props.onPress}

@@ -53,7 +53,6 @@ export default class MainScreen extends Component{
                 <Picker.Item label="족발" value="J" />
                 <Picker.Item label="한식" value="H" />
               </Picker>
-
               <Text style={styles.topText}>이/가</Text>
             </View>
             <Text style={styles.topText}>당깁니다</Text>
